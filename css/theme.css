@@ -1,0 +1,28 @@
+/* Pour theme night  */
+body.night {
+    background-color: #121212;
+    color: #eee;
+  }
+
+
+body.night main{
+    background-color: #121212;
+    color: #eee;
+  }
+
+/* Night celule ou case */
+body.night .cell {
+    background-color: #333;
+    color: #eee;
+  }
+
+body.night button {
+    background-color: #333;
+    color: #eee;
+  }
+
+body.night footer {
+    background-color: #333;
+    color: #eee;
+  }
+

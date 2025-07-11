@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe - OpenDev Mada</title>
+
+  <!-- Style css -->
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/theme.css"/>
+
+  <!-- Feuille js -->
+    <script defer src="js/dom.js"></script>
+    <script defer src="js/state.js"></script>
+    <script defer src="js/timer.js"></script>
+    <script defer src="js/logic.js"></script>
+    <script defer src="js/bot.js"></script>
+    <script defer src="js/interaction.js"></script>
+    <script defer src="js/ui.js"></script>
+    <script defer src="js/init.js"></script>
+    <script defer src="js/event.js"></script>
+    <script defer src="js/main.js"></script>
+    <!-- <script defer src="js/script.js"></script> -->
+</head>
+<body class="day">
+  <!-- Application tic tac toe -->
+
+  <!-- Logo à droite -->
+  <div class="image">
+    <img src="images/logoopendev.png" alt="OpenDev Mada" height="300"/>
+    <img src="images/logoopendev.png" alt="OpenDev Mada" height="300"/>
+  </div>
+      <main>
+        <div class="main">
+          <!-- Entete de la carte -->
+          <header>
+        
+            <!-- titre -->
+            <div>
+              <h1>TIC TAC TOE </h1>
+              <p>Un meni-jeu</p>
+            </div>
+        
+            <div class="theme-toggle">
+              <button id="toggle-theme">🌙</button>
+            </div>
+          </header>
+      
+          <!-- Score -->
+          <div class="scoreboard">
+            <div>X : <span id="score-x">0</span></div>
+            <div>O : <span id="score-o">0</span></div>
+          </div>
+      
+          <!-- game -->
+          <div class="game">
+            <div class="board" id="board"></div>
+      
+            <div class="info">
+              <p id="status"></p>
+              <p>⏱️ Temps restant : <span id="timer">10</span>s</p>
+            </div>
+      
+            <div class="btn">
+              <button id="restart">Rejouer 🔄</button>
+              <button id="vs-bot">Jouer vs Bot 🤖</button>
+            </div>
+      
+          </div>
+        </div>
+    
+        <!-- Footer de l'app tic tac toe -->
+        <footer>
+          <p>Made with ❤️ by L-Tech </p>
+    
+          <!-- Logo opendev mada -->
+          <div class="logo-dev">
+            <p>OpenDevMada<img src="images/logoopendev.png" alt="OpenDev Mada" height="40"/></p>
+            
+          </div>
+          
+        </footer>
+        
+      </main>
+
+  <!-- Logo à droite -->
+  <div class="image">
+    <img src="images/logoopendev.png" alt="OpenDev Mada" height="300"/>
+    <img src="images/logoopendev.png" alt="OpenDev Mada" height="300"/>
+  </div>
+  
+
+  <audio id="click-sound" src="audios/jouer.mp3"></audio>
+  <audio id="win-sound" src="audios/gagné.mp3"></audio>
+</body>
+</html>

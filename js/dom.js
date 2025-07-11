@@ -1,0 +1,11 @@
+// 🎯 Sélection des éléments HTML
+const board = document.getElementById('board')
+const statusText = document.getElementById('status')
+const restartBtn = document.getElementById('restart')
+const vsBotBtn = document.getElementById('vs-bot')
+const scoreX = document.getElementById('score-x')
+const scoreO = document.getElementById('score-o')
+const timerEl = document.getElementById('timer')
+const clickSound = document.getElementById('click-sound')
+const winSound = document.getElementById('win-sound')
+const themeToggle = document.getElementById('toggle-theme')

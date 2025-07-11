@@ -1,0 +1,2 @@
+// 🚀 Démarrage du jeu
+resetGame()
